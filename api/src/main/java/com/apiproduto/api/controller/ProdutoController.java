@@ -33,7 +33,7 @@ public class ProdutoController {
     public String cadastrarProdutos(Produto produto){
 
         repository.save(produto);
-        return "cadastrar";
+        return "redirect:/";
     }
     
     
